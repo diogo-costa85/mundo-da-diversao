@@ -1,0 +1,50 @@
+[
+  {
+    "id": "piscina-bolinhas",
+    "name": "Piscina de Bolinhas",
+    "image": "assets/piscina-bolinhas-children.webp",
+    "alt": "Piscina de bolinhas com crianças brincando",
+    "description": "Tamanho: 2x2m • Capacidade: 4 crianças • Idade: 2–7 anos",
+    "available": true
+  },
+  {
+    "id": "cama-elastica",
+    "name": "Cama Elástica",
+    "image": "assets/cama-elastica-children.jpg",
+    "alt": "Cama elástica com crianças pulando",
+    "description": "Diâmetro: 3m • Capacidade: 1 criança por vez • Idade: 3–12 anos",
+    "available": true
+  },
+  {
+    "id": "castelo-inflavel",
+    "name": "Castelo Inflável",
+    "image": "assets/castelo-inflavel-children.png",
+    "alt": "Castelo inflável com crianças",
+    "description": "Tamanho: 3x4m • Capacidade: 5 crianças • Idade: 4–10 anos",
+    "available": true
+  },
+  {
+    "id": "toboga-inflavel",
+    "name": "Tobogã Inflável",
+    "image": "assets/toboga-inflavel-children.jpg",
+    "alt": "Tobogã inflável com crianças escorregando",
+    "description": "Tamanho: 4x6m • Capacidade: 3 crianças • Idade: 5–12 anos",
+    "available": true
+  },
+  {
+    "id": "escorregador-sabao",
+    "name": "Escorregador de Sabão",
+    "image": "assets/escorregador-sabao-children.webp",
+    "alt": "Escorregador de sabão com crianças",
+    "description": "Tamanho: 4x10m • Capacidade: 2 crianças • Idade: 6–14 anos",
+    "available": true
+  },
+  {
+    "id": "algodao-pipoca",
+    "name": "Algodão-Doce e Pipoca",
+    "image": "assets/algodao-pipoca-children.jpg",
+    "alt": "Algodão-doce e pipoca com crianças",
+    "description": "Atendimento com operador • Ideal para todos os tipos de evento",
+    "available": true
+  }
+]

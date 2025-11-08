@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mundo da Diversão | Solicite Orçamento</title>
+    <meta name="description" content="Aluguel de brinquedos e equipamentos para festas infantis com segurança, higienização e montagem completa. Piscina de bolinhas, cama elástica, castelo inflável, tobogã e muito mais. Orçamentos rápidos e atendimento pelo WhatsApp." />
+    <meta name="theme-color" content="#2D9CDB" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Aluguel de Brinquedos para Festas Infantis" />
+    <meta property="og:description" content="Diversão segura com montagem completa e atendimento rápido. Solicite seu orçamento!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1543832923-518d1f0f8c5b?q=80&w=1600&auto=format&fit=crop" />
+    <meta property="og:url" content="http://localhost:5500/" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <div class="brand">
+          <span class="logo" aria-label="Logo">🎈</span>
+          <span class="brand-title">Alegria que cabe na sua Festa</span>
+        </div>
+        <nav class="actions">
+          <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+          <button id="whatsappHeroBtn" class="btn btn-whatsapp" aria-label="Falar no WhatsApp">Falar no WhatsApp</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="container grid hero-grid">
+          <div class="hero-text">
+            <h1>Aluguel de Brinquedos e Equipamentos para Festas Infantis</h1>
+            <p class="subtitle">Segurança, diversão e praticidade para o seu evento. Equipe especializada, equipamentos higienizados e atendimento rápido.</p>
+            <div class="cta">
+              <a href="#contato" class="btn btn-primary btn-lg">Solicitar Orçamento</a>
+              <button id="whatsappHeroBtn2" class="btn btn-whatsapp btn-lg">Falar no WhatsApp</button>
+            </div>
+            <ul class="trust-badges">
+              <li>✅ Higienização completa</li>
+              <li>✅ Montagem e desmontagem inclusas</li>
+              <li>✅ Equipamentos revisados e certificados</li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <img src="assets/hero-children-playing.jpg" alt="Crianças brincando em festa infantil" class="hero-image" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.src='assets/placeholder-hero.jpg'" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Vantagens da Empresa -->
+      <section class="features" id="vantagens">
+        <div class="container">
+          <h2>Por que escolher a nossa empresa?</h2>
+          <div class="grid features-grid">
+            <article class="feature-card">
+              <div class="icon">🛡️</div>
+              <h3>Segurança e Higienização</h3>
+              <p>Protocolos rigorosos de limpeza e revisão antes de cada evento.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">🧑‍🔧</div>
+              <h3>Equipe Especializada</h3>
+              <p>Montagem e desmontagem realizadas por profissionais experientes.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">📜</div>
+              <h3>Equipamentos Certificados</h3>
+              <p>Brinquedos com laudos e manutenção em dia, prontos para uso.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">⚡</div>
+              <h3>Atendimento Rápido</h3>
+              <p>Orçamentos ágeis e suporte personalizado por WhatsApp.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeria de Brinquedos -->
+      <section class="gallery" id="brinquedos">
+        <div class="container">
+          <h2>Brinquedos e Equipamentos</h2>
+          <div class="grid gallery-grid">
+            <!-- Os brinquedos serão carregados dinamicamente aqui -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Pacotes e Preços (opcional) -->
+      <section class="pricing" id="pacotes">
+        <div class="container">
+          <h2>Pacotes Sugeridos</h2>
+          <p class="pricing-sub">Escolha um pacote ou solicite um orçamento personalizado.</p>
+          <div class="grid pricing-grid">
+            <article class="price-card">
+              <h3>Pacote Divertir</h3>
+              <ul>
+                <li>Piscina de bolinhas</li>
+                <li>Cama elástica</li>
+                <li>Montagem e desmontagem</li>
+              </ul>
+              <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+            </article>
+            <article class="price-card popular">
+              <div class="badge">Mais escolhido</div>
+              <h3>Pacote Celebrar</h3>
+              <ul>
+                <li>Castelo inflável</li>
+                <li>Tobogã inflável</li>
+                <li>Operador de segurança</li>
+              </ul>
+              <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+            </article>
+            <article class="price-card">
+              <h3>Pacote Mega Festa</h3>
+              <ul>
+                <li>Escorregador de sabão</li>
+                <li>Algodão-doce e pipoca</li>
+                <li>Equipe completa</li>
+              </ul>
+              <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Depoimentos de Clientes -->
+      <section class="testimonials" id="depoimentos">
+        <div class="container">
+          <h2>Depoimentos de Clientes</h2>
+          <div class="grid testimonials-grid">
+            <article class="testimonial-card">
+              <p>“Tudo perfeito! Montagem rápida e equipamentos impecáveis. Meu filho amou!”</p>
+              <span class="author">— Ana, mãe do Pedro</span>
+            </article>
+            <article class="testimonial-card">
+              <p>“Pontuais e muito atenciosos. Recomendo para qualquer festa infantil!”</p>
+              <span class="author">— Carlos, organizador de eventos</span>
+            </article>
+            <article class="testimonial-card">
+              <p>“Equipe dedicada e brinquedos super seguros. Atendimento nota 10.”</p>
+              <span class="author">— Júlia, coordenadora escolar</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Como Funciona a Locação -->
+      <section class="how-it-works" id="como-funciona">
+        <div class="container">
+          <h2>Como funciona a locação</h2>
+          <div class="grid steps-grid">
+            <div class="step">
+              <div class="step-icon">📞</div>
+              <h3>Consulta</h3>
+              <p>Entre em contato e conte sobre seu evento.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">🎯</div>
+              <h3>Escolha</h3>
+              <p>Selecionamos juntos os brinquedos ideais.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">🗓️</div>
+              <h3>Reserva</h3>
+              <p>Confirmamos data, local e condições.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">🧰</div>
+              <h3>Montagem</h3>
+              <p>Equipe especializada monta e orienta o uso.</p>
+            </div>
+            <div class="step">
+              <div class="step-icon">🎉</div>
+              <h3>Evento</h3>
+              <p>É só aproveitar! Diversão segura garantida.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulário de Contato / Orçamento -->
+      <section class="contact" id="contato">
+        <div class="container">
+          <h2>Solicite seu orçamento</h2>
+          <p class="contact-sub">Preencha os dados e retornaremos rapidamente pelo WhatsApp.</p>
+          <form id="budgetForm" class="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+              </div>
+              <div class="form-field">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(DDD) 90000-0000" required />
+              </div>
+              <div class="form-field">
+                <label for="data_evento">Data do Evento</label>
+                <input type="date" id="data_evento" name="data_evento" required />
+              </div>
+              <div class="form-field">
+                <label for="local">Local do Evento</label>
+                <input type="text" id="local" name="local" placeholder="Endereço/Bairro/Cidade" required />
+              </div>
+            </div>
+
+            <fieldset class="fieldset">
+              <legend>Brinquedos desejados</legend>
+              <div class="checkbox-grid">
+                <label><input type="checkbox" name="brinquedos" value="Piscina de bolinhas" /> Piscina de bolinhas</label>
+                <label><input type="checkbox" name="brinquedos" value="Cama elástica" /> Cama elástica</label>
+                <label><input type="checkbox" name="brinquedos" value="Castelo inflável" /> Castelo inflável</label>
+                <label><input type="checkbox" name="brinquedos" value="Tobogã inflável" /> Tobogã inflável</label>
+                <label><input type="checkbox" name="brinquedos" value="Escorregador de sabão" /> Escorregador de sabão</label>
+                <label><input type="checkbox" name="brinquedos" value="Algodão-doce e pipoca" /> Algodão-doce e pipoca</label>
+              </div>
+            </fieldset>
+
+            <div class="form-field">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Observações (horário, faixa etária, quantidade de crianças...)" ></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar pelo WhatsApp</button>
+              <button type="button" id="whatsappDirectBtn" class="btn btn-whatsapp">Falar agora</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <span class="logo">🎈</span>
+            <span class="brand-title">Mundo da Diversão</span>
+          </div>
+          <p>Aluguel de brinquedos e equipamentos para festas infantis com segurança e profissionalismo.</p>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul class="list">
+            <li>WhatsApp: <a href="#" id="whatsapp-link"></a></li>
+            <li>Email: <a href="#" id="email-link"></a></li>
+            <li id="attendance"></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes sociais</h4>
+          <ul class="list">
+            <li><a href="#" id="instagram-link">Instagram</a></li>
+            <li><a href="#" id="facebook-link">Facebook</a></li>
+            <li><a href="#" id="tiktok-link">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+          <div class="container">
+            <small>© 2025 Mundo da Diversão • Todos os direitos reservados</small>
+            <a href="admin.html" class="admin-link">Área Administrativa</a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

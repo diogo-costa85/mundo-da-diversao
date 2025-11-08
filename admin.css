@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2D9CDB;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="text"],
+.form-field input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2D9CDB;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #27ae60;
+}
+
+.toy-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.toy-item:last-child {
+  border-bottom: none;
+}
+
+.toy-item h4 {
+  margin-top: 0;
+}
+
+.toy-item img {
+  display: block;
+  margin-bottom: 10px;
+}
